@@ -1,0 +1,166 @@
+#quiz-box {
+    display: flex;
+    /*border: 2px solid #444;*/
+    padding: 20px;
+    width: 300px; 
+    margin-bottom: 20px; 
+    margin:auto;
+    min-height: 75%;
+    max-height: 75%;
+}
+
+.question-text { 
+    margin-top: 0;
+}
+
+.answers {
+    display: block; 
+    margin: 5px 0; 
+    padding: 8px 12px; 
+    background-color: #eee;
+    border: 1px solid #999; 
+    cursor: pointer; 
+}
+
+.answer-hover {
+    background-color: #ddd;
+}
+
+#resultImg {
+    display: block;
+    max-width: 100%;
+    /*border: 2px solid #ccc;*/
+    margin: 0 auto; 
+}
+
+#result-container {
+    display: block;
+    /*border: 2px solid #444;*/
+    max-height: 25%;
+    min-height: 25%;
+
+}
+
+#subNavHeaderHome {
+    display: block;
+}
+
+.backgroundStyle {
+    display: inline-block;
+    background-color: darkkhaki;
+    filter: brightness(65%);
+    width: 96vw;
+    min-height: 100vh;
+    border-left: 2vw solid red;
+    border-right: 2vw solid red;
+    margin: 0 ;
+    padding: 0;
+
+}
+
+.nav {
+    list-style:circle;
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.nav li a:hover{    
+    color: gold;
+    filter: brightness(125%);
+    text-decoration: dotted;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#backgroundStyleEnzu {
+    display: block;
+    margin:0 auto;
+    height:auto;
+    width:100%;
+    
+}
+
+.overlayContainer { 
+    position:relative;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.overlayImage {
+    position:absolute;
+    width: 8vw;
+}
+.overlayImage img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.img1{bottom: 25%; left:50%; }
+.img2{top:30%; right:25%; }
+.img3{top:30%; left:45%; }
+.img4{top:15%; right: 30%;  }
+
+.galleryList {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style:none;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.galleryList li{ 
+    flex:1 1 200px;
+    max-width: 300px;
+
+}
+.galleryList img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius:8px;
+
+
+}
+
+#authorPhoto {
+    display: inline;
+}
+
+.EnzuPageImage { 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    Margin:0 auto;
+    padding: 0;
+    gap: 1.3em;
+    border: 2px solid white;
+    text-decoration-color: red;
+    text-decoration-thickness: auto;
+    text-decoration: underline;
+    font-family: fantasy ;
+    text-align: center;
+}
+
+.EnzuPageImage img {
+        max-width: 100%;
+        height: auto;
+        flex-shrink: 0;
+
+}
+
+@media (max-width: 768px) {
+    .EnzuPageImage {
+        flex-direction: column;
+    }
+    
+}
