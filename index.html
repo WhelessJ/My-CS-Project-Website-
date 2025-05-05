@@ -6,7 +6,7 @@
   <title>My Final Project</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
-  <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9P2HDH031"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,41 +16,51 @@
   gtag('config', 'G-H9P2HDH031');
 </script>
 <body>
+  <div class="backgroundStyle">
+      
+    <header>
+        <h1>The Responsive Web of Indra</h1>
+        <nav>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html/enzu.html">The Story</a></li>
+            <li><a href="html/gallery.html">The Picture</a></li>
+            <li><a href="html/about.html"> The Author </a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <header>
-    <h1>My Responsive Web Project</h1>
-    <nav>
-      <ul class="nav">
-        <li><a href="html/index.html">Home</a></li>
-        <li><a href="html/enzu.html">The Story</a></li>
-        <li><a href="html/gallery.html">The Picture</a></li>
-        <li><a href="html/about.html"> The Author </a></li>
-      </ul>
-    </nav>
-  </header>
+      <main>
+        <section id="subNavHeaderHome">
+          <h2>Welcome</h2>
+          <p></p>
+        </section>
 
-  <main>
-    <section id="subNavHeaderHome">
-      <h2>Welcome</h2>
-      <p></p>
-    </section>
+      
+        <section id="quiz-box">
+          <div id="question-container">
+            <h2 id="question-text"></h2>
+            <div id="answers"></div>
+          </div>
+        </section>
+          <div id="result-container">
+            <a href="html/enzu.html">
+            <img id="resultImg" src="" alt="Result Image" style=display:none >
+            </a>
+          </div>
+        
 
-  </main>
 
-  <div id="quiz-box">
-    <h2 id="question-text"></h2>
-    <div id="answers">
 
-    </div>
+
+
+
+        
+      </main>
+
+
+
   </div>
-  <div id="result-container">
-    <img id="result-img" src="" alt="Result Image"
-    style="display:none">
-  </div>
-
-
-
-
   <script src="javascript/quiz.js"></script>
 
 </body>
