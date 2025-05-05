@@ -47,6 +47,7 @@
 
 .backgroundStyle {
     display: inline-block;
+    background-image: url("../images/indexBackgroundImage.png");
     background-color: darkkhaki;
     filter: brightness(65%);
     width: 96vw;
@@ -101,10 +102,10 @@ body {
     height: auto;
     cursor: pointer;
 }
-.img1{bottom: 25%; left:50%; }
-.img2{top:30%; right:25%; }
-.img3{top:30%; left:45%; }
-.img4{top:15%; right: 30%;  }
+.img1{bottom: 3%; left:27%; }
+.img2{top:55%; left:20%; }
+.img3{top:50%; left:33%; }
+.img4{top:15%; right: 43%;  }
 
 .galleryList {
     display:flex;
@@ -152,9 +153,10 @@ body {
 }
 
 .EnzuPageImage img {
-        max-width: 100%;
+        max-width: 50vw;
         height: auto;
         flex-shrink: 0;
+        margin:auto;
 
 }
 
@@ -163,4 +165,13 @@ body {
         flex-direction: column;
     }
     
+}
+
+#authorPage { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-justify: center;
+    text-align: center;
 }
